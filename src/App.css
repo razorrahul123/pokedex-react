@@ -1,0 +1,129 @@
+.App {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: #fafafa;
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+
+.pokemon-list-container {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.backbutton-wrapper {
+  position: absolute;
+
+  top: 0px;
+
+  left: 0px;
+}
+
+.backbutton-wrapper button {
+  display: flex;
+
+  padding: 24px 24px 23px 24px;
+
+  border-style: none;
+  cursor: pointer;
+}
+.backbutton-wrapper button img {
+  height: 20px;
+
+  width: 20px;
+}
+.detail-container {
+  flex: 1 1 auto;
+
+  padding: 40px 40px 0px 40px;
+}
+
+.pokemon-wrapper {
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+
+  flex-direction: column;
+
+  min-width: 0;
+
+  word-wrap: break-word;
+
+  background-color: #fff;
+
+  background-clip: border-box;
+
+  border-radius: 0.25rem;
+}
+
+.search-input {
+  padding-left: 20px;
+  border-style: none;
+}
+
+.search-bar-container {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-wrapper {
+  padding: 15px;
+}
+
+.profile-header-wrapper {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.pokemon-wrapper .header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemoncard-wrapper {
+  display: inline-flex;
+  z-index: 100;
+
+  width: 160px;
+
+  height: 160px;
+  margin: 10px;
+
+  position: relative;
+
+  background-color: rgb(242, 242, 242);
+
+  overflow: hidden;
+
+  display: -webkit-inline-box;
+
+  display: -ms-inline-flexbox;
+
+  list-style-type: none;
+
+  justify-content: center;
+
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.pokemoncard-wrapper:hover {
+  box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5), 0 4px 6px rgba(0, 0, 0, 0.24);
+
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transform: scale(1.05);
+}
+.pokemoncard-container {
+}
+
+.navbar {
+  background-color: #ef5350 !important;
+}
+
+body {
+  background-color: transparent !important;
+}
